@@ -6,7 +6,7 @@ bias = 0.4
 
 tmp = 0
 
-for i in range(len(inputs)):
+for i in range(len(inputs)): # single loop
     tmp = tmp + (inputs[i] * weights[i])
 
 z = tmp + bias
